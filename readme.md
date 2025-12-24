@@ -6,9 +6,11 @@ Tellescope API.
 
 ## Purpose
 
-Validates: - Stable Enduser creation - Deterministic fetching by ID -
-Multiple consecutive updates on the same user record - Clean deletion
-flow
+Validates:
+- Stable Enduser creation
+- Deterministic fetching by ID 
+- Multiple consecutive updates on the same user record
+- Clean deletion flow
 
 ## Requirements
 
