@@ -20,7 +20,7 @@ Validates:
 
 ## API Key Setup
 
-This project requires an environment variable:
+This project requires an environment variable, available in the control panel of tellescope:
 
 ### Windows (PowerShell)
 
