@@ -4,14 +4,11 @@ import {CustomUpdateOptions} from "@tellescope/types-utilities";
 
 const API_KEY = process.env.TELLESCOPE_API_KEY
 if (!API_KEY) {
-    throw new Error("Missing TELLESCOPE_API_KEY environment variable")
+    console.log("Missing TELLESCOPE_API_KEY environment variable")
+    process.exit(1)
 }
 const sdk = new Session({apiKey: API_KEY})
 
-
-if (!API_KEY) {
-    throw new Error("Missing TELLESCOPE_API_KEY environment variable")
-}
 
 export const api = {
     end_users: {
