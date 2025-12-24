@@ -1,0 +1,28 @@
+{
+  "name": "poc-tellescope-integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intelligent002/poc-tellescope-integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intelligent002/poc-tellescope-integration/issues"
+  },
+  "homepage": "https://github.com/intelligent002/poc-tellescope-integration#readme",
+  "description": "",
+  "dependencies": {
+    "@tellescope/sdk": "^1.237.3",
+    "@tellescope/types-client": "^1.237.3",
+    "@tellescope/types-models": "^1.237.3",
+    "@tellescope/types-server": "^1.237.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
